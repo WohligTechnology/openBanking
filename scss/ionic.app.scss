@@ -15,9 +15,70 @@ $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
 
+$blue: #00bfe7 !default;
+$light: #fff !default;
+$gray: #f3f3f3 !default;
+$graylight: #fafafa !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
-
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
+//common classes
+.text-right {
+  text-align: right;
+}
 
+.text-left {
+  text-align: left;
+}
+
+//start of user table
+.bg-white {
+  background-color: $light;
+}
+
+.user-detail {
+  label {
+    padding: 2px;
+    margin: 10px 0px;
+  }
+  input {
+    padding: 3px;
+    border: 1px solid $gray;
+    margin: 0 auto;
+    background-color: $graylight;
+  }
+  button {
+    padding: 0px 54px;
+    min-height: 20px;
+    line-height: 31px;
+    margin: 20px 0px !important;
+    font-weight: bold;
+  }
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table .thead-dark th {
+  color: #fff;
+  background-color: #212529;
+  border-color: #32383e;
+}
+
+.table .light-gray th {
+  color: #32383e;
+  background-color: #e9ecef; //   border-color: #32383e;
+  font-weight: bold;
+}
+
+.table td,
+.table th {
+  vertical-align: top;
+  padding: 0.75rem;
+  border-top: 1px solid rgb(233, 236, 239);
+}
