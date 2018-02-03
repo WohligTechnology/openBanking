@@ -9872,12 +9872,6 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-.text-right {
-  text-align: right; }
-
-.text-left {
-  text-align: left; }
-
 .bg-white {
   background-color: #fff; }
 
@@ -9912,7 +9906,8 @@ a.button {
 .table .light-gray th {
   color: #32383e;
   background-color: #e9ecef;
-  font-weight: bold; }
+  font-weight: bold;
+  text-align: left; }
 
 .table td,
 .table th {

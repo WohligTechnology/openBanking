@@ -23,15 +23,6 @@ $graylight: #fafafa !default;
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
-//common classes
-.text-right {
-  text-align: right;
-}
-
-.text-left {
-  text-align: left;
-}
-
 //start of user table
 .bg-white {
   background-color: $light;
@@ -75,6 +66,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   color: #32383e;
   background-color: #e9ecef; //   border-color: #32383e;
   font-weight: bold;
+  text-align: left;
 }
 
 .table td,
